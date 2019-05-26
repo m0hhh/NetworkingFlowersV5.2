@@ -47,8 +47,7 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     
-    //.. Hii
-
+    
     public static final String FLOWER_OBJECT = "FlowerObject";
     private static final String URL_JSON = "http://services.hanselandpetal.com/feeds/flowers.json";
     private static final String PHOTOS_BASE_URL = "http://services.hanselandpetal.com/photos/";
