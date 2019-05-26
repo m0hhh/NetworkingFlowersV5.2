@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <TextView
+
+        android:id="@+id/tvFlowerNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flower_name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+
+        />
+
+    <ImageView
+
+        android:id="@+id/ivFlowerImageDetail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <TextView
+
+        android:id="@+id/tvFlowerInstructionsDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FlowerInstructions"
+        android:textSize="15dp"
+        android:layout_below="@id/tvFlowerName"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/tvFlowerPriceDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:layout_above="@id/btnBuy"
+
+        />
+
+    <Button
+
+        android:id="@+id/btnBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="BuyOnClickHandler"
+
+      />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_action_edit"
+        android:onClick="EditFlower"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="spinner_flower_categories">
+        <item>Shrubs</item>
+        <item>Container Plants</item>
+        <item>Herbaceous Perennials</item>
+        <item>Cacti and Succulents</item>
+    </array>
+
+</resources>

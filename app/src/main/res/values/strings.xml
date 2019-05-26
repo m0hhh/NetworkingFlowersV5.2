@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NetworkingFlowersV5</string>
+    <string name="flower_name">flowername</string>
+    <string name="FlowerInstructions">put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down put it down</string>
+    <string name="Default_Colors">Default_Colors</string>
+    <string name="New_Colors">New_Colors</string>
+    <string name="Key_Enable_Default_Colors">Key_Enable_Default_Colors</string>
+    <string name="Enable_Default_Colors">Enable_Default_Colors</string>
+    <string name="settings">Settings</string>
+    <string name="AppTitle">Flowers</string>
+    <string name="settingTitle">Settings</string>
+    <string name="title_activity_insert_update">InsertUpdateActivity</string>
+    <string name="flower_name_insert">Flower Name:</string>
+    <string name="flower_price_insert">Flower Price:</string>
+    <string name="flower_category_insert">Flower Category:</string>
+    <string name="select_image">Select Image</string>
+    <string name="flower_instructions_insert">Flower Instructions:</string>
+    <string name="insertFlowerTitle">Add New Flower</string>
+
+</resources>
